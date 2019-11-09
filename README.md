@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+.forEach mutates the current array and .map returns a new array.
+
 2. What is the difference between a function and a method?
+
+a funciton can execute other codes and can return one or more, and a method is used inside an object, that is almost like a function.
 
 3. What is closure?
 
+closure allows functions to be nested inside a funciton, kind of like nesting in advance css, where theres a parent and children, nested inside the parent.
+
 4. Describe the four rules of the 'this' keyword.
 
+1- Default Binding
+2- Implicit Binding
+3- Explicit Binding
+4- New Binding
+
 5. Why do we need super() in an extended class?
+
+The super() keyword in javascript is used in order to call the methods of the parent class. This is often used within a constructor function to call the parent constructor function.
 
 ## Project Set up
 
